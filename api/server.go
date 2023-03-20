@@ -1,8 +1,8 @@
 package api
 
 import (
+	db "github.com/Liam501/SimpleBank/db/sqlc"
 	"github.com/gin-gonic/gin"
-	db "github.com/techschool/simplebank/db/sqlc"
 )
 
 // Server servers HTTP requests for the banking service
