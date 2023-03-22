@@ -49,6 +49,6 @@ func RandomCurrenncy() string {
 }
 
 // RandonEmail generates a random email address
-func RandonEmail() string {
+func RandomEmail() string {
 	return fmt.Sprintf("%s@email.com", RandomString(6))
 }

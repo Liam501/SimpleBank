@@ -17,7 +17,7 @@ func createRandomUser(t *testing.T) User {
 		Username:       util.RandomOwner(),
 		HashedPassword: hashedPassword,
 		FullName:       util.RandomOwner(),
-		Email:          util.RandonEmail(),
+		Email:          util.RandomEmail(),
 	}
 
 	user, err := testQueries.CreateUser(context.Background(), arg)
