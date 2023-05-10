@@ -1,7 +1,8 @@
-Project SimpleBank {
+Project Ecommerce {
   database_type: 'PostgreSQL'
   Note: '''
-    # Simple Bank Database
+    # Ecommerce Database
+    **markdown content here**
   '''
 }
 
