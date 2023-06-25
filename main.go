@@ -35,7 +35,7 @@ func main() {
 		log.Fatal("cannot connect to db:", err)
 	}
 
-	runDBMigration(config.MigrationURL, config.DBSource)
+	// runDBMigration(config.MigrationURL, config.DBSource)
 
 	store := db.NewStore(conn)
 	go runGatewayServer(config, store)
